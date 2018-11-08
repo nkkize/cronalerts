@@ -1,0 +1,17 @@
+{
+  "name":"automtionreports",
+  "description":"automtion report alerts to FBM",
+  "version":"0.0.1",
+  "private": true,
+  "author": "Narender Kumar",
+  "license": "ISC",
+  "scripts" : {
+    "start" : "node app.js"
+  },
+  "dependencies" : {
+    "express" : "latest",
+    "request": "2.81.0",
+    "tracer": "^0.9.2",
+    "localtunnel": "1.9.1"
+  }
+}
